@@ -1,0 +1,17 @@
+127.0.0.1	localhost
+10.10.10.X	group17vm1
+10.10.10.X+1	group17vm2
+10.10.10.X+2	group17vm3
+10.10.10.X+3	group17vm4
+
+10.10.20.X	controller
+10.10.20.X+1	compute01
+10.10.20.X+2	compute02
+10.10.20.X+3	ceilometer
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
