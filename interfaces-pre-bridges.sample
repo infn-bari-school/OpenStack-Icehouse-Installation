@@ -22,12 +22,12 @@ iface eth1 inet static
 
 
 # 2nd PUBLIC NIC
-auto eth2
-iface eth2 inet static
-	address 10.10.30.X
-	netmask 255.255.255.0
-	gateway 10.10.10.1
-	broadcast 10.10.30.255
-	dns-nameservers 90.147.66.84
-	dns-search ba.infn.it
-	network 10.10.30.0
+#auto eth2
+#iface eth2 inet static
+#	address 10.10.30.X
+#	netmask 255.255.255.0
+#	gateway 10.10.10.1
+#	broadcast 10.10.30.255
+#	dns-nameservers 90.147.66.84
+#	dns-search ba.infn.it
+#	network 10.10.30.0
