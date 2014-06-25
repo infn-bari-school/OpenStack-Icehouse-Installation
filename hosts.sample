@@ -1,13 +1,13 @@
 127.0.0.1	localhost
-10.10.10.X	group17vm1
-10.10.10.X+1	group17vm2
-10.10.10.X+2	group17vm3
-10.10.10.X+3	group17vm4
+10.10.10.X1	group17vm1
+10.10.10.X2	group17vm2
+10.10.10.X3	group17vm3
+10.10.10.X4	group17vm4
 
-10.10.20.X	controller
-10.10.20.X+1	compute01
-10.10.20.X+2	compute02
-10.10.20.X+3	ceilometer
+10.10.20.X1	controller
+10.10.20.X2	compute01
+10.10.20.X3	compute02
+10.10.20.X4	ceilometer
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
