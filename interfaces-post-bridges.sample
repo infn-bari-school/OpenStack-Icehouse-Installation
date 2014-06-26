@@ -1,0 +1,38 @@
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+#auto eth0
+#iface eth0 inet static
+#	address 10.10.10.X
+#	netmask 255.255.255.0
+#	gateway 10.10.10.1
+#	broadcast 10.10.10.255
+#	dns-nameservers 90.147.66.84
+#	dns-search ba.infn.it
+#	network 10.10.10.0
+
+auto eth0
+iface eth0 inet manual
+	up ip address add 0/0 dev $IFACE
+        up ip link set dev $IFACE up
+        down ip link set dev $IFACE down
+
+
+auto eth1
+iface eth1 inet static
+	address 10.10.20.X
+	netmask 255.255.255.0
+
+
+#### BRIDGES
+auto br-ex
+iface br-ex inet static
+	address 10.10.10.X
+	netmask 255.255.255.0
+	gateway 10.10.10.1
+	broadcast 10.10.10.255
+	dns-nameservers 90.147.66.84
+	dns-search ba.infn.it
+	network 10.10.10.0
