@@ -17,9 +17,9 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet manual
-	up ip address add 0/0 dev $IFACE
-        up ip link set dev $IFACE up
-        down ip link set dev $IFACE down
+	up ip address add 0/0 dev eth0
+        up ip link set dev eth0 up
+        down ip link set dev eth0 down
 
 
 auto eth1
