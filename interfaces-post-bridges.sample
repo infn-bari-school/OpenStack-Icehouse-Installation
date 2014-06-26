@@ -1,3 +1,5 @@
+## Please insert this configuration into /etc/network/interfaces
+
 # The loopback network interface
 auto lo
 iface lo inet loopback
