@@ -5,7 +5,7 @@ iface lo inet loopback
 # 1st PUBLIC NIC
 auto eth0
 iface eth0 inet static
-	address 10.10.10.X
+	address 10.10.10.X    #IP ADDRESS HERE
 	netmask 255.255.255.0
 	gateway 10.10.10.1
 	broadcast 10.10.10.255
@@ -17,14 +17,14 @@ iface eth0 inet static
 # PRIVATE NIC
 auto eth1
 iface eth1 inet static
-	address 10.10.20.X
+	address 10.10.20.X    #IP ADDRESS HERE
 	netmask 255.255.255.0
 
 
 # 2nd PUBLIC NIC
 #auto eth2
 #iface eth2 inet static
-#	address 10.10.30.X
+#	address 10.10.30.X    #IP ADDRESS HERE
 #	netmask 255.255.255.0
 #	gateway 10.10.10.1
 #	broadcast 10.10.30.255
