@@ -1,0 +1,10 @@
+# 1st PUBLIC NIC
+auto eth0
+iface eth0 inet static
+	address 10.10.10.X    #IP ADDRESS HERE
+	netmask 255.255.255.0
+	gateway 10.10.10.1
+	broadcast 10.10.10.255
+	dns-nameservers 90.147.66.84
+	dns-search ba.infn.it
+	network 10.10.10.0
