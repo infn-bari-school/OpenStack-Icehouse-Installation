@@ -1,13 +1,13 @@
 127.0.0.1	localhost
-10.10.10.X1	group17vm1
-10.10.10.X2	group17vm2
-10.10.10.X3	group17vm3
-10.10.10.X4	group17vm4
+10.10.10.X1	vm1.mydomain.it # assign to the (1st) public interface of vm1 (controller-network node) its dns name
+10.10.10.X2	vm2.mydomain.it # assign to the (1st) public interface of vm2 (1st compute node) its dns name
+10.10.10.X3	vm3.mydomain.it # assign to the (1st) public interface of vm3 (2nd compute node) its dns name
+10.10.10.X4	vm4.mydomain.it # assign to the (1st) public interface of vm4 (orchestration/telemetry node) its dns name
 
-10.10.20.X1	controller
-10.10.20.X2	compute01
-10.10.20.X3	compute02
-10.10.20.X4	ceilometer
+10.10.20.X1	controller # assign to the private interface of vm1 (controller-network node) a meaningful name
+10.10.20.X2	compute01 # assign to the private interface of vm2 (1st compute node) a meaningful name
+10.10.20.X3	compute02 # assign to the private interface of vm3 (2nd compute node) a meaningful name
+10.10.20.X4	ceilometer # assign to the private interface of vm4 (orchestration/telemetry node) a meaningful name
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
