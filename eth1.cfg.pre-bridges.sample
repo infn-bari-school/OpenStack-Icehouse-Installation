@@ -1,5 +1,5 @@
 # PRIVATE NIC
 auto eth1
 iface eth1 inet static
-	address 10.10.20.X    #IP ADDRESS HERE
+	address 10.10.20.X    # PUT THE PRIVATE IP ADDRESS HERE
 	netmask 255.255.255.0
