@@ -1,0 +1,20 @@
+127.0.0.1	localhost controller
+10.10.10.11	vm01.ba.infn.it vm01
+10.10.10.12	vm02.ba.infn.it vm02
+10.10.10.13	vm03.ba.infn.it vm03
+10.10.10.14	vm04.ba.infn.it vm04
+10.10.10.15	vm05.ba.infn.it vm05
+
+10.10.20.11	controller
+10.10.20.12	compute01
+10.10.20.13	compute02
+10.10.20.14	compute03
+10.10.20.15	ceilometer
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
