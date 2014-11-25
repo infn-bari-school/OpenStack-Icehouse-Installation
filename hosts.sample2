@@ -1,9 +1,9 @@
-127.0.0.1	localhost controller
-10.10.10.11	vm01.ba.infn.it vm01
-10.10.10.12	vm02.ba.infn.it vm02
-10.10.10.13	vm03.ba.infn.it vm03
-10.10.10.14	vm04.ba.infn.it vm04
-10.10.10.15	vm05.ba.infn.it vm05
+127.0.0.1	localhost
+10.10.10.11	vm01
+10.10.10.12	vm02
+10.10.10.13	vm03
+10.10.10.14	vm04
+10.10.10.15	vm05
 
 10.10.20.11	controller
 10.10.20.12	compute01
