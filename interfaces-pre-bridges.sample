@@ -5,7 +5,8 @@ iface lo inet loopback
 # 1st PUBLIC NIC
 auto eth0
 iface eth0 inet static
-	address 10.10.10.X    # PUT THE PUBLIC IP ADDRESS HERE
+# In the next line replace 10.10.10.X with the PUBLIC IP ADDRESS
+	address 10.10.10.X
 	netmask 255.255.255.0
 	gateway 10.10.10.1
 	broadcast 10.10.10.255
@@ -17,14 +18,16 @@ iface eth0 inet static
 # PRIVATE NIC
 auto eth1
 iface eth1 inet static
-	address 10.10.20.X    # PUT THE PRIVATE IP ADDRESS HERE
+# In the next line replace 10.10.20.X with the PRIVATE IP ADDRESS
+	address 10.10.20.X
 	netmask 255.255.255.0
 
 
-# 2nd PUBLIC NIC
+## 2nd PUBLIC NIC
 #auto eth2
 #iface eth2 inet static
-#	address 10.10.30.X    # PUT THE 2nd PUBLIC IP ADDRESS HERE
+## In the next line replace 10.10.30.X with the PUBLIC IP ADDRESS OF THE 2nd PUBLIC INTERFACE
+#	address 10.10.30.X
 #	netmask 255.255.255.0
 #	gateway 10.10.10.1
 #	broadcast 10.10.30.255
