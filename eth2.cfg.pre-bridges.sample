@@ -2,7 +2,7 @@
 #auto eth2
 #iface eth2 inet static
 ## Substitute 10.10.30.X in the next line with the SECOND PUBLIC IP ADDRESS of the node
-#	address 10.10.30.X    # PUT THE 2nd PUBLIC IP ADDRESS HERE
+#	address 10.10.30.X
 #	netmask 255.255.255.0
 #	gateway 10.10.10.1
 #	broadcast 10.10.30.255
