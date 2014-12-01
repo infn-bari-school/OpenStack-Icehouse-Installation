@@ -1,7 +1,8 @@
 # 1st PUBLIC NIC
 auto eth0
 iface eth0 inet static
-	address 10.10.10.X    # PUT THE PUBLIC IP ADDRESS HERE
+# Substitute 10.10.10.X in the next line with the PUBLIC IP ADDRESS of the node
+	address 10.10.10.X
 	netmask 255.255.255.0
 	gateway 10.10.10.1
 	broadcast 10.10.10.255
